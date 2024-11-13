@@ -1,0 +1,36 @@
+.parent {
+    width: 100%
+}
+
+.card_parent {
+    display: flex;
+    position: absolute;
+    left: 76px;
+    top: 1354px;
+    max-width: 1280px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 13px;
+    max-width: 263px;
+    height: 150px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 14px;
+    background-color: #F6F7ED;
+}
+
+
+.card-heading {
+    color: #0a3435;
+    font-size: 56px;
+}
+
+.card-paragraph {
+    font-size: 16px;
+    color: #0b0b0b;
+    width: 242px;
+}

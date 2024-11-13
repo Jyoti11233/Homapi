@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.explore_our_parent {
+    background-color: #0a3435;
+    height: 400px;
+    margin-top: 40px;
+}
+
+.explore_our_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 22px;
+}
+
+.explore_our_content h2 {
+    margin-top: 72px;
+}
+
+.explore_our_content  p{
+    margin-top: 5px;
+}
+
+/* card */
+.explore_card_grand_parent{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left: 200px;
+    top: 2836px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 43px;
+}
+
+.explore_card_parent {
+    width: 360px;
+    border-radius: 15px;
+}
+
+.explore_card_content{
+    border-radius: 0px 0px 20px 20px;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 154px;
+    background-color: #F6F6EC;
+}
+
+.explore_card_content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 11px;
+    color: #0a3435;
+}
+
+.explore_card_content p {
+    font-size: 13px;
+    margin-top: 7px;
+    color: #0a3435;
+}
+
+.explore_card_content button {
+    margin-top: 12px;
+}
+
+.explore_card_image {
+    height: 150px;
+    width: 360px;
+}
+
+.explore_card_image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #F6F7ED;
+}
+
+.explore_card_content button {
+    height: 32px;
+    width: 112px;
+    background-color: #0a3435;
+    color: white;
+    border: none;
+    border-radius: 45px;
+    font-size: 13px;
+}
+
+.explore_card_content button:hover {
+    background-color: #E8656D;
+}

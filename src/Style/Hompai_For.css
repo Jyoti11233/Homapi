@@ -1,0 +1,97 @@
+.hompai_for_parent{
+    background-color: #DADDC0;
+    height: 181px;
+}
+
+.hompai_for_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hompai_for_heading h1{
+    margin-top: 45px;
+}
+
+/* card */
+
+.hompai_card_parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    left: 440px;
+    top: 2122px;
+    margin-top: 101px;
+}
+
+.hompai_card {
+    background-color:#F6F7ED;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    height: 227px;
+    width: 328px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hompai_card_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hompai_card-icon img{
+    margin-top: 21px;
+}
+
+.hompai_card-heading {
+    font-size: 24px;
+}
+
+.hompai_card-paragraph {
+    width: 290px;
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    margin-top: 5px;
+}
+
+.hompai_card-button {
+    height: 39px;
+    width: 99px;
+    background-color:  #0a3435;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.hompai_card-button:hover {
+    background-color:#E8656D;
+}
+
+/* Trusted by */
+
+.trusted_parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 228px;
+}
+
+.trusted_parent h2{
+    font-size: 36px;
+}
+
+.trusted_parent p{
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom: 31px;
+    font-weight: 500;
+}

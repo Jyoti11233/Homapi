@@ -1,0 +1,108 @@
+/* Navbar.css */
+
+.navbar {
+    /* height: 85px; */
+    width: 100vw;
+}
+
+.navbar_conatiner{
+     /* max-width: 1280px; */
+     height: 83px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F7ED;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    gap: 57px;
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+    margin: 100px;
+}
+
+.navbar-logo {
+    width: 151px;
+    height: auto;
+    margin-right: 16px;
+}
+
+.navbar-heading {
+    font-size: 24px;
+}
+
+.navbar-right {
+    margin: 110px;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: 600;
+}
+
+.navbar-menu {
+    
+    font-size: 17px;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    margin: 0 16px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.navbar-item:hover {
+    color: #ddd;
+}
+
+.navbar-buttons {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.navbar-btn {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-left: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-btn.sign-in {
+    background-color: transparent;
+    color: crimson;
+    border: 1px solid crimson;
+    width: 94px;
+}
+
+.navbar-btn.sign-in:hover {
+    background-color: #e8656d;
+    color: #333;
+}
+
+.navbar-btn.sign-up {
+    background-color: crimson;
+    border: 1px solid crimson;
+    color: white;
+    width: 114px;
+}
+
+.navbar-btn.sign-up:hover {
+    background-color:#c8cbae;
+    color: #000000;
+}
+
+.navbar-gb {
+    font-size: 18px;
+    margin-left: 16px;
+}

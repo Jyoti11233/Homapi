@@ -1,0 +1,36 @@
+.footer_parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 453px;
+    background-color: #DBDEC0;
+    height: 241px;
+}
+
+.footer_icons{
+    display: flex;
+    margin-top: 23px;
+    justify-content: flex-start;
+    gap: 13px;
+}
+
+.footer_paragraph{
+    display: flex;
+    gap: 29px;
+    margin-top: 29px;
+}
+
+.footer_paragraph span{
+    color: grey;
+}
+
+.footer_list_parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 39px;
+}
+
+.footer_list{
+    line-height: 39px;
+}
